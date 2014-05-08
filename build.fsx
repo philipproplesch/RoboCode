@@ -1,4 +1,4 @@
-#r "packages/FAKE/tools/FakeLib.dll"
+#r "tls/FAKE/tools/FakeLib.dll"
 open Fake
 
 // Properties

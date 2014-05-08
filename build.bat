@@ -2,7 +2,7 @@
 
 cls
 
-".nuget\NuGet.exe" "Install" "FAKE" "-OutputDirectory" "packages" "-ExcludeVersion"
-"packages\FAKE\tools\Fake.exe" build.fsx
+"tls\NuGet\nuget.exe" "Install" "FAKE" "-OutputDirectory" "tls" "-ExcludeVersion"
+"tls\FAKE\tools\Fake.exe" build.fsx
 
 pause

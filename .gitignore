@@ -175,3 +175,5 @@ FakesAssemblies/
 
 # Build artifacts
 out/
+
+tls/FAKE/
