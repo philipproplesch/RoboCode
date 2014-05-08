@@ -1,5 +1,9 @@
 # RoboCode
 
+## Build
+
+Run `build.bat` and grab the artifacts from the `out` directory.
+
 ## Debugging
 
 ### Start external program
@@ -10,6 +14,5 @@
 
 ### Working directory
 `C:\robocode\`
-
 
 http://robowiki.net/wiki/Robocode/.NET/Debug_a_.NET_robot_in_Visual_Studio
