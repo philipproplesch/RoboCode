@@ -1,4 +1,5 @@
-﻿using Robocode;
+﻿using System;
+using Robocode;
 
 namespace PP
 {
@@ -13,19 +14,25 @@ namespace PP
       TurnLeft(Heading - 90);
       TurnGunRight(90);
 
-      // Infinite loop making sure this robot runs till the end of the battle round
-      while (true)
+      try
       {
-        // -- Commands that are repeated forever --
+        // Infinite loop making sure this robot runs till the end of the battle round
+        while (true)
+        {
+          // -- Commands that are repeated forever --
 
-        // Move our robot 5000 pixels ahead
-        Ahead(5000);
+          // Move our robot 5000 pixels ahead
+          Ahead(5000);
 
-        // Turn the robot 90 degrees
-        TurnRight(90);
+          // Turn the robot 90 degrees
+          TurnRight(90);
 
-        // Our robot will move along the borders of the battle field
-        // by repeating the above two statements.
+          // Our robot will move along the borders of the battle field
+          // by repeating the above two statements.
+        }
+      }
+      catch (Exception)
+      {
       }
     }
 
